@@ -1,382 +1,307 @@
-# INDEX - Cours Complet C pour Runtrack
+# 📚 COURS COMPLET C - RUNTRACK EDITION
 
-Bienvenue dans ce cours complet de programmation C! Tous les fichiers sont prêts à utiliser et copier directement dans votre code.
+Bienvenue! Ceci est une **documentation complète et structurée pour apprendre le C** et réussir ta **Runtrack C!**
 
-## 📚 Concepts Fondamentaux
+## 🎯 Ce que tu trouveras ici
 
-### 1. **C_Intro.md** - Introduction
-- Structure de base d'un programme C
-- Compilation et exécution
-- Lire les messages d'erreur
-- Bonnes pratiques de base
+Un cours de **39 fichiers** organisé en **6 étapes logiques**:
+- ✅ Les **11 fondamentaux du C** (variables, boucles, fonctions, etc.)
+- ✅ Les **23 bibliothèques essentielles** (stdio, string, math, signaux, etc.)
+- ✅ **Exemples complets** prêts à utiliser
+- ✅ **Erreurs courantes** à éviter
+- ✅ **Bonnes pratiques** professionnelles
 
-**À lire en premier** ✅
+## 📂 Structure globale
 
-### 2. **C_Variables.md** - Variables et Types
-- Types de données (int, char, float, double)
-- Déclaration et initialisation
-- Spécificateurs de format (printf)
-- Constantes et casting
-- Tailles des types (sizeof)
-
-**Essentiel pour manipuler les données** ✅
-
-### 3. **C_Operateurs.md** - Opérateurs
-- Opérateurs arithmétiques
-- Opérateurs de comparaison
-- Opérateurs logiques
-- Opérateurs d'assignation
-- Incrémentation/décrémentation
-- Opérateur ternaire
-- Opérateurs binaires (bitwise)
-
-**Construire des expressions complexes** ✅
-
-### 4. **C_Controle.md** - Structures de Contrôle
-- if/else/else if
-- Conditions imbriquées
-- switch/case
-- Opérateurs logiques en conditions
-
-**Prendre des décisions dans le code** ✅
-
-### 5. **C_Boucles.md** - Boucles
-- while, for, do/while
-- Break et continue
-- Boucles imbriquées
-- Parcourir des tableaux et chaînes
-
-**Répéter des actions** ✅
-
-### 6. **C_Tableaux.md** - Tableaux et Chaînes
-- Tableaux unidimensionnels
-- Tableaux bidimensionnels
-- Chaînes de caractères
-- Manipulation de chaînes
-- Tableau de chaînes
-
-**Gérer des collections de données** ✅
-
-### 7. **C_Fonctions.md** - Fonctions
-- Déclaration et implémentation
-- Paramètres et retours
-- Passage par valeur
-- Prototypes de fonction
-- Portée des variables
-- Récursion
-
-**Structurer le code en blocs réutilisables** ✅
-
-### 8. **C_Pointeurs.md** - Pointeurs
-- Opérateurs & et *
-- Adresses et déréférence
-- Pointeurs et tableaux
-- Passage par référence
-- Arithmétique des pointeurs
-- Pointeur const et const pointeur
-
-**Manipuler les adresses mémoire** ✅
-
-### 9. **C_MemAlloc.md** - Allocation Dynamique
-- malloc, calloc, realloc
-- free et libération mémoire
-- Memory leaks
-- Tableaux dynamiques
-- Matrices 2D dynamiques
-- Chaînes dynamiques
-
-**Gérer la mémoire dynamiquement** ✅
-
-### 10. **C_Structures.md** - Structures et Typedef
-- Définition de structures
-- Structures imbriquées
-- Pointeurs vers structures
-- typedef pour simplifier
-- Union et enum
-- Fonctions avec structures
-
-**Créer des types de données personnalisés** ✅
-
-## 📚 Bibliothèques Standard
-
-### 11. **Lib_stdio.h** - Entrée/Sortie
-**Fonctions courantes** :
-- `printf()` - Afficher formaté
-- `scanf()` - Lire formaté
-- `puts()`, `putchar()`, `getchar()`
-- `fopen()`, `fclose()` - Fichiers
-- `fprintf()`, `fscanf()` - Fichiers
-- `fgets()`, `fputs()` - Fichiers
-
-**À utiliser pour** : Affichage, saisie, manipulation de fichiers
-
-### 12. **Lib_string.h** - Chaînes de Caractères
-**Fonctions courantes** :
-- `strlen()` - Longueur
-- `strcpy()`, `strncpy()` - Copier
-- `strcat()`, `strncat()` - Concaténer
-- `strcmp()`, `strncmp()` - Comparer
-- `strchr()`, `strstr()` - Chercher
-- `memcpy()`, `memset()`, `memcmp()` - Mémoire
-
-**À utiliser pour** : Manipuler les chaînes
-
-### 13. **Lib_stdlib.h** - Utilitaires
-**Fonctions courantes** :
-- `malloc()`, `calloc()`, `realloc()` - Allocation
-- `free()` - Libération
-- `atoi()`, `atof()`, `atol()` - Conversion
-- `strtol()` - Conversion robuste
-- `rand()`, `srand()` - Nombres aléatoires
-- `abs()`, `labs()` - Valeur absolue
-- `exit()` - Quitter le programme
-
-**À utiliser pour** : Allocation, conversion, aléatoire
-
-### 14. **Lib_unistd.h** - Fonctions Système
-**Fonctions courantes** :
-- `write()` - Écrire sur FD **[RUNTRACK]**
-- `read()` - Lire depuis FD
-- `close()` - Fermer FD
-- `sleep()`, `usleep()` - Pause
-
-**À utiliser pour** : I/O bas niveau, système
-
-### 15. **C_Compilation.md** - Compilation et Bonnes Pratiques
-- Commandes gcc couantes
-- Makefiles
-- Fichiers d'en-tête (.h)
-- Messages d'erreur courants
-- Convention de nommage
-- Gestion des erreurs
-
-**Référence de compilation** ✅
-
-## 🎯 Progression Recommandée
-
-### Phase 1 : Fondamentaux (Jour 1-2)
-1. C_Intro.md
-2. C_Variables.md
-3. C_Operateurs.md
-4. C_Controle.md
-
-### Phase 2 : Boucles et Collections (Jour 2-3)
-5. C_Boucles.md
-6. C_Tableaux.md
-
-### Phase 3 : Fonctions et Modularité (Jour 3-4)
-7. C_Fonctions.md
-8. C_Compilation.md
-
-### Phase 4 : Pointeurs et Mémoire (Jour 4-5)
-9. C_Pointeurs.md
-10. C_MemAlloc.md
-
-### Phase 5 : Types personnalisés (Jour 5-6)
-11. C_Structures.md
-
-### Phase 6 : Bibliothèques (Jour 6+)
-- Lib_stdio.h (priorité)
-- Lib_unistd.h (pour Runtrack)
-- Lib_string.h (essentiellement)
-- Lib_stdlib.h (utile)
-
-## 🚀 Exercices Runtrack Jour 1
-
-### Job 01 - Implementer my_putchar et my_putstr
-Fichiers utiles :
-- **Lib_unistd.h** : Pour comprendre write()
-- **C_Fonctions.md** : Prototypes et implémentation
-
-```c
-// my_putchar.c
-#include <unistd.h>
-
-void my_putchar(char c)
-{
-    write(1, &c, 1);
-}
-
-// my_putstr.c
-void my_putstr(char *str)
-{
-    if (str == NULL)
-        return;
-    
-    while (*str != '\0')
-    {
-        my_putchar(*str);
-        str++;
-    }
-}
+```
+COURS/
+│
+├── 01_CONCEPTS_FONDAMENTAUX/          (11 fichiers)
+│   └── Variables, opérateurs, boucles, fonctions, pointeurs, etc.
+│
+├── 02_BIBLIOTHEQUES_ESSENTIELLES/     (4 fichiers)
+│   └── stdio, string, stdlib, unistd
+│
+├── 03_BIBLIOTHEQUES_COURANTES/        (5 fichiers)
+│   └── ctype, math, time, assert, signal
+│
+├── 04_BIBLIOTHEQUES_SYSTEME/          (3 fichiers)
+│   └── fcntl, sys/types, sys/uio
+│
+├── 05_BIBLIOTHEQUES_UTILITAIRES/      (7 fichiers)
+│   └── errno, stdarg, stdbool, stddef, stdint, limits, float
+│
+└── 06_BIBLIOTHEQUES_AVANCEES/         (9 fichiers)
+    └── complex, locale, wchar, wctype, fenv, inttypes, iso646, tgmath, threads
 ```
 
-### Job 02 - Implementer my_strlen
-Fichiers utiles :
-- **C_Boucles.md** : While et incrémentation
-- **C_Pointeurs.md** : Parcourir une chaîne
+## 🚀 Par où commencer?
 
-```c
-// my_strlen.c
-int my_strlen(char *str)
-{
-    int len = 0;
-    
-    while (str[len] != '\0')
-        len++;
-    
-    return (len);
-}
-```
+### Si tu es un **débutant complet**
+1. Commençe par **01_CONCEPTS_FONDAMENTAUX/** → Lis **C_Intro.md**
+2. Progresse dans l'ordre: C_Variables → C_Operateurs → etc.
+3. Puis **02_BIBLIOTHEQUES_ESSENTIELLES/** → Lib_stdio.md
 
-### Job 03 - char_is_digit et str_is_digit
-Fichiers utiles :
-- **C_Variables.md** : Codes ASCII
-- **C_Controle.md** : Conditions
-- **C_Boucles.md** : Boucles for
+### Si tu es en **Runtrack - Jour 1**
+- 📖 Lis **C_Intro.md**, **C_Variables.md**
+- 📖 Lis **Lib_stdio.md**, **Lib_string.md**
+- 🔤 Lis **Lib_ctype.md** (pour char_is_digit)
+- 💪 Commence les Jobs!
 
-### Job 04 - my_strcpy
-Fichiers utiles :
-- **C_Pointeurs.md** : Pointeurs et déréférence
-- **C_Boucles.md** : Boucles while
+### Si tu es en **Runtrack - Jour 2-3**
+- 📖 Lis **C_Boucles.md**, **C_Tableaux.md**, **C_Fonctions.md**
+- 📖 Lis **Lib_stdlib.md** (malloc, free)
+- 📖 Lis **Lib_fcntl.md** (open, fichiers)
+- 💪 Travaille avec fichiers et structures
 
-```c
-// my_strcpy.c
-char *my_strcpy(char *dest, char *src)
-{
-    while (*src != '\0')
-    {
-        *dest = *src;
-        dest++;
-        src++;
-    }
-    *dest = '\0';
-    
-    return (dest);
-}
-```
+### Si tu es en **Runtrack - Jour 4-5 (Minishell)**
+- 📖 Lis **C_Pointeurs.md**, **C_MemAlloc.md**, **C_Structures.md**
+- 📖 Lis **Lib_unistd.md** (fork, execve)
+- 📖 Lis **Lib_signal.md** (Ctrl+C, SIGINT)
+- 📖 Lis **Lib_fcntl.md** (redirection)
+- 💪 Implémente la minishell!
 
-### Job 05 - my_strdup
-Fichiers utiles :
-- **C_MemAlloc.md** : malloc et free
-- **C_Fonctions.md** : my_strlen (réutiliser)
+## 📖 Description de chaque ÉTAPE
 
-### Job 06 - my_strcmp
-Fichiers utiles :
-- **C_Boucles.md** : While pour parcourir
-- **C_Controle.md** : Comparaisons
-- **C_Variables.md** : Codes ASCII
+### ÉTAPE 1: Concepts Fondamentaux (11 fichiers)
 
-### Job 07 - trim
-Fichiers utiles :
-- **C_MemAlloc.md** : malloc et allocation
-- **C_Controle.md** : Conditions pour les espaces
-- **Lib_stdlib.h** : malloc
+**Le cœur du C:** Variables, types, opérateurs, contrôle de flux, boucles, tableaux, fonctions, pointeurs, allocation mémoire, structures, compilation.
 
-### Job 08 - split
-Fichiers utiles :
-- **C_MemAlloc.md** : Tableaux dynamiques
-- **C_Tableaux.md** : Tableaux de chaînes
-- **C_Pointeurs.md** : Pointeurs vers pointeurs
+Après cette étape, tu comprendras:
+- ✅ Comment déclarer et utiliser les variables
+- ✅ Tous les opérateurs C
+- ✅ Les boucles et conditions
+- ✅ Comment écrire des fonctions
+- ✅ Comment utiliser les pointeurs
+- ✅ Comment allouer et gérer la mémoire
+- ✅ Comment créer et utiliser les structures
+- ✅ Comment compiler correctement
 
-## 💡 Conseils Importants
-
-### Pour chaque Job
-1. **Lire l'énoncé** avec attention
-2. **Respecter les prototypes** exactement
-3. **Tester avec plusieurs cas** (normal, edge cases, erreurs)
-4. **Compiler avec** : `gcc -Wall -Wextra -Werror`
-5. **Vérifier les prototypes** sont identiques à l'énoncé
-6. **Documenter le code** avec des commentaires
-
-### Erreurs Courantes
-- ❌ Oublier `\0` à la fin d'une chaîne
-- ❌ Oublier de vérifier NULL avant de déréférencer
-- ❌ Confondre `strcpy` avec `my_strcpy`
-- ❌ Oublier le `&` avant une variable dans scanf/read
-- ❌ Ne pas libérer la mémoire allouée
-
-### Points Importants
-✅ Les chaînes sont terminées par `\0`
-✅ `write()` est la fonction autorisée (pas printf)
-✅ Toujours vérifier les retours d'erreur
-✅ Utiliser des prototypes dans les headers
-✅ Compiler chaque job séparément d'abord
-
-## 📋 Checklist de Rendu
-
-- [ ] Tous les fichiers compilent sans erreur
-- [ ] Flags de compilation : `-Wall -Wextra -Werror`
-- [ ] Prototypes exacts de l'énoncé
-- [ ] Tests effectués et fonctionnels
-- [ ] Pas de memory leaks
-- [ ] Code bien indenté
-- [ ] Repository github à jour
-- [ ] Dossier/fichier nommage correct
-
-## 🔍 Références Rapides
-
-### Lire une entrée utilisateur
-```c
-#include <stdio.h>
-
-int nombre;
-scanf("%d", &nombre);  // Entier
-```
-
-### Afficher du texte
-```c
-#include <unistd.h>
-
-write(1, "texte", 5);  // write(stdout, texte, longueur)
-```
-
-### Allouer mémoire
-```c
-#include <stdlib.h>
-
-int *ptr = (int *)malloc(sizeof(int));
-if (ptr == NULL) return (1);
-free(ptr);
-ptr = NULL;
-```
-
-### Boucler sur une chaîne
-```c
-int i = 0;
-while (str[i] != '\0')
-{
-    // Faire quelque chose
-    i++;
-}
-```
-
-### Comparer deux chaînes
-```c
-#include <string.h>
-
-if (strcmp(str1, str2) == 0)
-    // Identiques
-```
-
-## 📞 Quand consulter quel fichier
-
-| Besoin | Fichier |
-|--------|---------|
-| Lire une entrée | C_Variables.md, Lib_stdio.h |
-| Boucler | C_Boucles.md |
-| Condition | C_Controle.md |
-| Fonction | C_Fonctions.md |
-| Pointeur | C_Pointeurs.md |
-| Chaîne | C_Tableaux.md, Lib_string.h |
-| Mémoire | C_MemAlloc.md, Lib_stdlib.h |
-| Structure | C_Structures.md |
-| Affichage | Lib_stdio.h, Lib_unistd.h |
-| Compilation | C_Compilation.md |
+→ **Va à:** `01_CONCEPTS_FONDAMENTAUX/README.md`
 
 ---
 
-**Bonne chance avec Runtrack C!** 🚀
+### ÉTAPE 2: Bibliothèques Essentielles (4 fichiers)
 
-N'hésite pas à revenir à ces fichiers pour vérifier la syntaxe ou comprendre un concept.
-Tous les exemples sont prêts à copier et tester!
+**Les incontournables:** stdio (printf/scanf), string (strlen/strcpy/strcmp), stdlib (malloc/free), unistd (write/read/fork).
+
+Après cette étape, tu sauras:
+- ✅ Afficher et lire avec printf/scanf
+- ✅ Manipuler les chaînes
+- ✅ Allouer et libérer la mémoire
+- ✅ Faire I/O bas niveau
+- ✅ Créer des processus avec fork/execve
+
+→ **Va à:** `02_BIBLIOTHEQUES_ESSENTIELLES/README.md`
+
+---
+
+### ÉTAPE 3: Bibliothèques Courantes (5 fichiers)
+
+**Les pratiques:** ctype (classification caractères), math (calculs mathématiques), time (temps), assert (assertions), signal (signaux système).
+
+Après cette étape, tu sauras:
+- ✅ Vérifier les types de caractères
+- ✅ Faire des calculs mathématiques
+- ✅ Travailler avec le temps
+- ✅ Déboguer avec des assertions
+- ✅ Gérer Ctrl+C et autres signaux
+
+→ **Va à:** `03_BIBLIOTHEQUES_COURANTES/README.md`
+
+---
+
+### ÉTAPE 4: Bibliothèques Système (3 fichiers)
+
+**Bas niveau:** fcntl (manipulation fichiers), sys/types (types système), sys/uio (I/O vectorielle).
+
+Après cette étape, tu sauras:
+- ✅ Ouvrir/créer des fichiers avec open()
+- ✅ Gérer les permissions
+- ✅ Utiliser les types système (pid_t, mode_t)
+- ✅ Faire I/O vectorielle efficace
+
+→ **Va à:** `04_BIBLIOTHEQUES_SYSTEME/README.md`
+
+---
+
+### ÉTAPE 5: Bibliothèques Utilitaires (7 fichiers)
+
+**Essentielles mais niche:** errno (gestion erreurs), stdarg (arguments variables), stdbool (booléens), stddef (définitions), stdint (types précis), limits (limites types), float (limites flottants).
+
+Après cette étape, tu sauras:
+- ✅ Déboguer les erreurs système proprement
+- ✅ Créer des fonctions avec arguments variables
+- ✅ Utiliser des types booléens clairs
+- ✅ Utiliser des types entiers de taille garantie
+- ✅ Connaître les limites des types
+
+→ **Va à:** `05_BIBLIOTHEQUES_UTILITAIRES/README.md`
+
+---
+
+### ÉTAPE 6: Bibliothèques Avancées (9 fichiers)
+
+**Spécialisées:** complex (nombres complexes), locale (localisation), wchar (Unicode), wctype (classification Unicode), fenv (exceptions float), inttypes (formats types), iso646 (opérateurs texte), tgmath (math génériques), threads (multithreading).
+
+⚠️ **Note:** La plupart ne sont **pas utilisées en Runtrack**. Lis juste inttypes si tu utilises int64_t.
+
+Après cette étape, tu comprendras:
+- ✅ Quand utiliser chaque bibliothèque avancée
+- ✅ Comment ne PAS utiliser iso646.h!
+- ✅ Comment formatter correctement int64_t
+
+→ **Va à:** `06_BIBLIOTHEQUES_AVANCEES/README.md`
+
+---
+
+## 🎓 Qu'est-ce que tu vas apprendre?
+
+### Concepts fondamentaux
+```c
+int x = 5;              // Variables et types
+char str[50];           // Tableaux
+int *ptr = &x;          // Pointeurs
+struct S { int a; };    // Structures
+for (int i = 0; i < 10; i++)  // Boucles
+int res = func(x);      // Fonctions
+```
+
+### Bibliothèques
+```c
+printf("%d\n", x);      // stdio
+strcpy(dest, src);      // string
+int *p = malloc(10);    // stdlib
+write(1, buf, 5);       // unistd
+isdigit('5');           // ctype
+sqrt(9);                // math
+time(NULL);             // time
+signal(SIGINT, func);   // signal
+open("file", O_RDONLY); // fcntl
+fork();                 // system calls
+```
+
+## 🚀 Comment utiliser ce cours?
+
+### 1. **Navigation**
+- Commence par l'étape qui t'intéresse
+- Lis le README.md de chaque étape (description claire)
+- Clique sur les fichiers Lib_*.md ou C_*.md
+- Chaque fichier est **indépendant et complet**
+
+### 2. **Apprendre**
+- Lis l'explication complète
+- Comprends les exemples
+- Essaie de copier-coller les codes
+- Teste dans ta terminal!
+
+### 3. **Pratiquer**
+- Chaque fichier liste les erreurs courantes
+- Évite-les!
+- Applique les bonnes pratiques
+- Fais des petits exercices
+
+### 4. **Intégrer**
+- Combine les concepts dans tes projets
+- Utilise dans Runtrack C
+- Réfère-toi aux fichiers au besoin
+
+## ✅ Checklist Runtrack C
+
+### Jour 1
+- [ ] Lis C_Intro.md
+- [ ] Lis C_Variables.md, C_Operateurs.md
+- [ ] Lis Lib_stdio.md, Lib_string.md
+- [ ] Lis Lib_ctype.md
+- [ ] Complète Jobs 01-08
+
+### Jour 2-3
+- [ ] Lis C_Boucles.md, C_Tableaux.md, C_Fonctions.md
+- [ ] Lis Lib_stdlib.md
+- [ ] Lis Lib_fcntl.md
+- [ ] Lis Lib_errno.md
+- [ ] Travaille avec fichiers
+
+### Jour 4-5 (Minishell)
+- [ ] Lis C_Pointeurs.md, C_MemAlloc.md
+- [ ] Lis C_Structures.md
+- [ ] Lis Lib_unistd.md (fork, execve)
+- [ ] Lis Lib_signal.md (SIGINT)
+- [ ] Lis Lib_fcntl.md (redirection)
+- [ ] Implémente minishell avec ces concepts
+
+## 📊 Statistiques
+
+- **39 fichiers de contenu**
+- **6 README.md structurés**
+- **~150 KB de documentation**
+- **100+ exemples complets**
+- **Tout en français**
+- **Spécifiquement pour Runtrack C**
+
+## 🎯 Progression visuelle
+
+```
+JOUR 1          JOUR 2-3         JOUR 4-5
+│               │                │
+├─ Concepts     ├─ Avancé        ├─ Système
+├─ Biblio Easy  ├─ Fichiers      ├─ Signaux
+├─ String       ├─ Malloc/Free   ├─ Fork/Exec
+├─ Stdio        ├─ Structures    ├─ Minishell
+│               │                │
+100% C BASICS   INTERMEDIATE     ADVANCED SYSTEM
+```
+
+## 💡 Conseils d'or
+
+1. ✅ **Lis dans l'ordre logique** (ne saute pas les étapes)
+2. ✅ **Teste chaque exemple** dans ton IDE/terminal
+3. ✅ **Comprends les erreurs courantes** (très importantes!)
+4. ✅ **Applique les bonnes pratiques** (code professionnel)
+5. ✅ **Réfère-toi souvent** au besoin
+6. ✅ **Combine les concepts** dans tes projets
+7. ✅ **Ne mémorise pas** - comprendre suffit!
+
+## 🚀 Liens rapides
+
+- **ÉTAPE 1:** [Concepts Fondamentaux](01_CONCEPTS_FONDAMENTAUX/README.md)
+- **ÉTAPE 2:** [Essentielles](02_BIBLIOTHEQUES_ESSENTIELLES/README.md)
+- **ÉTAPE 3:** [Courantes](03_BIBLIOTHEQUES_COURANTES/README.md)
+- **ÉTAPE 4:** [Système](04_BIBLIOTHEQUES_SYSTEME/README.md)
+- **ÉTAPE 5:** [Utilitaires](05_BIBLIOTHEQUES_UTILITAIRES/README.md)
+- **ÉTAPE 6:** [Avancées](06_BIBLIOTHEQUES_AVANCEES/README.md)
+
+## 📞 Questions fréquentes
+
+**Q: Par où je commence?**
+R: Par ÉTAPE 1 → C_Intro.md, puis dans l'ordre.
+
+**Q: Je suis en retard en Runtrack, j'accélère?**
+R: Lis juste ce qui t'intéresse (utilise les README de chaque étape).
+
+**Q: J'ai besoin d'aide sur un sujet?**
+R: Trouve le fichier correspondant dans l'étape appropriée.
+
+**Q: Je dois mémoriser tous les codes?**
+R: Non! Comprendre suffit. Utilise ce cours comme référence.
+
+**Q: Pourquoi les fichiers sont séparés?**
+R: Chaque bibliothèque = 1 fichier = facile à naviguer et trouver.
+
+## 🎉 C'est prêt!
+
+Tu as maintenant une **ressource complète et professionnelle** pour:
+- ✅ Apprendre le C proprement
+- ✅ Réussir ta Runtrack C
+- ✅ Développer comme un pro
+- ✅ Déboguer efficacement
+- ✅ Écrire du code de qualité
+
+**Bon apprentissage et bonne chance avec ta Runtrack!** 🚀
+
+---
+
+**Version:** 1.0
+**Dernière mise à jour:** Janvier 2025
+**Créé pour:** Runtrack C - La Plateforme
+**Statut:** ✅ Complet (39 fichiers)
