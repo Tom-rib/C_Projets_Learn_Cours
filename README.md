@@ -1,4 +1,4 @@
-# 🚀 C_Projets_Learn_Cours
+#  C_Projets_Learn_Cours
 
 **Mon parcours complet pour maîtriser le C: la Runtrack officielle, mes cours, mes exercices et mes projets.**
 
@@ -138,45 +138,36 @@ Tri par différentes méthodes
 Gestion complète d'erreurs
 Makefile complet
 ```
-
----
-
-### 🎯 Exercices Par Niveau
-
-Mes **exercices progressifs que j'ai créés pour apprendre petit à petit**, organisés par niveau de difficulté:
-
-- **Niveau 1** - Les bases (variables, types, I/O)
-- **Niveau 2** - Pointeurs et adressage
-- **Niveau 3** - Tableaux et chaînes
-- **Niveau 4** - Structures et données complexes
-- **Niveau 5** - Mémoire et gestion dynamique
-- **Niveau 6** - Fichiers et I/O avancée
-- **Niveau 7** - Fonctions avancées et callbacks
-- **Niveau 8** - Algorithmes et optimisation
-- **Niveau 9** - Projets intégrés
-
-Chaque niveau:
-- 📖 Explique les concepts
-- 💡 Propose des exercices guidés
-- 🔧 Augmente progressivement la difficulté
-- ✅ Prépare au niveau suivant
-
 ---
 
 ### 🔧 Projets/ (En progression)
 
-Mes **projets personnels** que j'ajoute au fil du temps:
+Mes **projets personnels** qu'on va créer ensemble au fur et à mesure.
 
-- **minishell/** - Un shell simplifié (pipe, redirection, cd, etc.)
-- **game-of-life/** - Conway's Game of Life (simulation)
-- **2048/** - Jeu 2048 (algos + UI)
-- *(À enrichir avec tes créations)*
+---
 
-Chaque projet contient:
-- Code source organisé
-- Makefile fonctionnel
-- README expliquant l'utilisation
-- Commentaires et documentation
+## 🚀 Comment démarrer
+
+```bash
+# 1. Cloner mon repository
+git clone https://github.com/ton-username/C_Projets_Learn_Cours.git
+cd C_Projets_Learn_Cours
+
+# 2. Lire mon premier cours
+cat Cours/01_CONCEPTS_FONDAMENTAUX/C_Intro.md
+
+# 3. Commencer mes exercices
+cd Exercices/Niveau01/
+cat sujet.md
+gcc -Wall -Wextra -Werror solution.c test.c -o test
+./test
+
+# 4. Commencer mon premier job
+cd ../../Runtrack/Jour01/Job01
+cat sujet.md
+gcc -Wall -Wextra -Werror solution.c test.c -o test
+./test
+```
 
 ---
 
@@ -213,20 +204,6 @@ make
 
 ---
 
-## 🔥 Progression recommandée
-
-```
-Semaine 1:     Cours étape 1 + Exercices Niveau 1-2
-Semaine 1-2:   Runtrack Jour01 + Exercices Niveau 2-3
-Semaine 2-3:   Runtrack Jour02 + Exercices Niveau 3-4
-Semaine 3:     Runtrack Jour03 + Exercices Niveau 4-5
-Semaine 4:     Runtrack Jour04 + Exercices Niveau 5-6
-Semaine 5:     Runtrack Jour05 (projet final) + Exercices Niveau 6-7
-Après:         Tes propres projets (minishell, etc.) + Exercices Niveau 8-9
-```
-
----
-
 ## 💡 Ma stratégie pour réussir
 
 ✅ **Ce que je fais:**
@@ -244,16 +221,6 @@ Après:         Tes propres projets (minishell, etc.) + Exercices Niveau 8-9
 
 ---
 
-## 📊 Statistiques
-
-- **Total jobs:** 40 (Runtrack Jour01-04) + 1 projet final
-- **Exercices:** 9 Niveaux progressifs (des bases aux projets intégrés)
-- **Fichiers de cours:** 39
-- **Concepts couverts:** Variables, pointeurs, structures, I/O, système, mémoire, algo
-- **Projets:** Évolutif
-
----
-
 ## 🛠️ Technologie
 
 - **Langage:** C (ANSI C99)
@@ -262,44 +229,6 @@ Après:         Tes propres projets (minishell, etc.) + Exercices Niveau 8-9
 - **Build:** Makefile
 - **Flags recommandés:** `-Wall -Wextra -Werror`
 
----
-
-## 📝 Format des Jobs
-
-Chaque job suit ce format:
-
-```
-JobXX/
-├── sujet.md          (énoncé du job)
-├── solution.c        (implémentation)
-├── test.c            (tests unitaires)
-└── Makefile
-```
-
----
-
-## 🚀 Comment démarrer
-
-```bash
-# 1. Cloner mon repository
-git clone https://github.com/ton-username/C_Projets_Learn_Cours.git
-cd C_Projets_Learn_Cours
-
-# 2. Lire mon premier cours
-cat Cours/01_CONCEPTS_FONDAMENTAUX/C_Intro.md
-
-# 3. Commencer mon premier job
-cd Runtrack/Jour01/Job01
-cat sujet.md
-gcc -Wall -Wextra -Werror solution.c test.c -o test
-./test
-```
-# 4. Commencer mon premier job
-cd Runtrack/Jour01/Job01
-cat sujet.md
-gcc -Wall -Wextra -Werror solution.c test.c -o test
-./test
-```
 
 ---
 
@@ -309,22 +238,4 @@ Apprentissage personnel - Runtrack C de La Plateforme
 
 ---
 
-## ✨ Ma progression
-
-```
-✅ Structure créée
-✅ Runtrack intégrée (Jour01-05)
-✅ Cours complétés (39 fichiers)
-🔄 Exercices en cours (Niveaux 1-9)
-🔄 Projets en évolution
-```
-
----
-
-**Dernière mise à jour:** Janvier 2025  
-**Formation:** La Runtrack C - La Plateforme  
-**Objectif personnel:** Devenir un développeur C compétent
-
----
-
-**C'est ma vitrine, mon apprentissage, mon parcours! 🎓** 
+**C'est ma vitrine, mon apprentissage, mon parcours! 🎓** 🚀
