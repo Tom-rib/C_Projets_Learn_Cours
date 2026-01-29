@@ -47,9 +47,7 @@ C_Projets_Learn_Cours/
 │   └── README.md
 │
 ├── 🔧 Projets/                  # Mes projets personnels
-│   ├── minishell/               (Shell interactif)
-│   ├── game-of-life/            (Conway's Game of Life)
-│   ├── 2048/                    (Jeu 2048)
+│   ├── nanoshell/               (Shell simplifier)                 
 │   └── (à enrichir...)
 │
 └── README.md                    (Vous êtes ici!)
@@ -142,7 +140,9 @@ Makefile complet
 
 ### 🔧 Projets/ (En progression)
 
-Mes **projets personnels** qu'on va créer ensemble au fur et à mesure.
+Mes **projets personnels** qu'on va créer ensemble au fur et à mesure:
+
+- **nanoshell/** - Shell simplifié
 
 ---
 
