@@ -1,12 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    char hello[50] = "Hello";
 
-    for (int i =1 ; i <= 10 ; i++) {
-        printf("%s\n", hello);
-        
-    }
+    char i = 1;
 
+    do {
+      printf("Hello\n");
+      i++;
+    }while (i <= 10);
+    { 
   return 0;
+}
 }
