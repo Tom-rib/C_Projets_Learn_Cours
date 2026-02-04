@@ -226,3 +226,25 @@ int main()
 }
 
 10. Job10:
+
+
+
+
+#include <stdio.h>
+int main()
+{
+  int age;
+  
+  printf("Entrer votre age :"); 
+  scanf("%d",&age);
+  if(age >= 6 && age <= 7) 
+    printf("Vous êtes Gamin");
+    
+  if(age >= 8 && age <= 9) 
+    printf("Vous êtes Pupille");
+  if(age >= 10 && age <= 11)
+    printf("Vous êtes Jeune");
+  if(age >= 12) 
+    printf("Vous êtes Cadet"); 
+  return 0; 
+}
