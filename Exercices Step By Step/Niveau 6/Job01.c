@@ -12,4 +12,5 @@ int main(void)
     printf("checkNbr(3) -> %s\n", checkNbr(-10,60) ? "TRUE" : "FALSE");
     printf("checkNbr(3) -> %s\n", checkNbr(60,-3) ? "TRUE" : "FALSE");
     return 0;
+    
 }
