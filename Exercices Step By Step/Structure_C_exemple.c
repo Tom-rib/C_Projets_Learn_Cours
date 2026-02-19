@@ -20,3 +20,23 @@ int main() {
 printf("Entrer 3 nombres entiers séparer d'une virgule: ");
  scanf("%d %d %d", &a, &b, &c);
  printf("checkList(%d,%d,%d)->%s\n", a, b, c, checkList(a, b, c) ? "TRUE" : "FALSE");
+
+
+
+
+    while (nombre > 0)  
+    {
+        reverse = reverse * 10 + nombre % 10;  
+        nombre = nombre / 10;
+    }
+    
+    if (comparaison == reverse)
+    {
+        printf("%d est un palindrome.\n", comparaison);
+    }
+    else
+    {
+        printf("%d n'est pas un palindrome.\n", comparaison);
+    }
+    
+    return 0;
