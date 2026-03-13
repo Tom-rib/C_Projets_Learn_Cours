@@ -175,6 +175,30 @@ int main() {
 
 8. Job08:
 
+
+#include <stdio.h>
+
+int  main() {
+    int i, j, n;
+
+    printf("Entrer le nombre de lignes:");
+    scanf("%d", &n);
+
+  // Démarrer une boucle pour générer les lignes des étoiles
+    for (i = 1; i <= n; i++) {  
+        /* Boucle imbriquée pour afficher les étoiles en fonction 
+    de la ligne actuelle */
+        for (j = 1; j <= i; j++){
+            // Afficher une étoile
+            printf("*");  
+        } 
+        printf("\n"); // Passez à la ligne suivante
+    }
+    return 0;
+}
+
+
+
 9. Job09:
 
 
